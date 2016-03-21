@@ -7,13 +7,58 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="coolcatmeow.org.welcomeanimation.MainActivity">
+    tools:context="coolcatmeow.org.welcomeanimation.MainActivity"
+    android:id="@+id/WelcomeLayout">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World!"
-        android:textSize="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="30dp"
         android:gravity="center"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+
+    //ButtonONE is the Resume Button
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+        android:id="@+id/buttonONE"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    //ButtonTWO is the idontknow
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option2"
+        android:id="@+id/buttonTWO"
+        android:layout_below="@+id/buttonONE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    //ButtonFOUR is for updating
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option3"
+        android:id="@+id/buttonTHREE"
+        android:layout_below="@+id/buttonTWO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    //Button is sharing
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option4"
+        android:id="@+id/buttonFOUR"
+        android:layout_below="@+id/buttonTHREE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+
 </RelativeLayout>
