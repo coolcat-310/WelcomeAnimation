@@ -22,6 +22,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ResumeActivity"
+            android:label="@string/title_activity_resume"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QrActivity"
+            android:label="@string/title_activity_qr"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ResumeActivityTwo"
+            android:label="@string/title_activity_resume_activity_two"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DisplayResumeActivity"></activity>
     </application>
 
 </manifest>
