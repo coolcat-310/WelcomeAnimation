@@ -26,9 +26,10 @@
         android:layout_height="wrap_content"
         android:text="@string/option1"
         android:id="@+id/buttonONE"
+        android:layout_marginTop="133dp"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp" />
+        android:layout_alignLeft="@+id/buttonTWO"
+        android:layout_alignStart="@+id/buttonTWO" />
 
     //ButtonTWO is the idontknow
     <Button
@@ -36,9 +37,9 @@
         android:layout_height="wrap_content"
         android:text="@string/option2"
         android:id="@+id/buttonTWO"
-        android:layout_below="@+id/buttonONE"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp" />
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/buttonFIVE"
+        android:layout_alignStart="@+id/buttonFIVE" />
 
     //ButtonFOUR is for updating
     <Button
@@ -47,8 +48,9 @@
         android:text="@string/option3"
         android:id="@+id/buttonTHREE"
         android:layout_below="@+id/buttonTWO"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp" />
+        android:layout_alignLeft="@+id/buttonTWO"
+        android:layout_alignStart="@+id/buttonTWO"
+        android:layout_marginTop="47dp" />
 
     //Button is sharing
     <Button
@@ -56,9 +58,20 @@
         android:layout_height="wrap_content"
         android:text="@string/option4"
         android:id="@+id/buttonFOUR"
-        android:layout_below="@+id/buttonTHREE"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonTHREE"
+        android:layout_alignStart="@+id/buttonTHREE"
+        android:layout_marginBottom="42dp" />
+
+    //Button for login
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/buttonFIVE"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp" />
+        android:layout_marginTop="50dp" />
 
 
 </RelativeLayout>

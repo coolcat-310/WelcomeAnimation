@@ -25,4 +25,5 @@
     <string name="WorkTittle">Work Position</string>
     <string name="ReturnHome">Return to Main</string>
     <string name="viewProgress">View Progress</string>
+    <string name="title_activity_log_in">LogInActivity</string>
 </resources>

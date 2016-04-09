@@ -13,6 +13,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Button for the login
+        Button goToLogInActivity = (Button) findViewById(R.id.buttonFIVE);
+        goToLogInActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LogInActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
         //Create a Button and listener to goto different pages.
         Button goToResumeActivity = (Button) findViewById(R.id.buttonONE);
         goToResumeActivity.setOnClickListener(new View.OnClickListener() {
