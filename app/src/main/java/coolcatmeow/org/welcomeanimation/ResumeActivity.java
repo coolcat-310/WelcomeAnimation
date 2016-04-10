@@ -9,14 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ResumeActivity extends AppCompatActivity {
-    public  final static String FIRST_NAME = "coolcatmeow.org.welcomeanimation.FIRST_NAME";
-    public  final static String LAST_NAME = "coolcatmeow.org.welcomeanimation.LAST_NAME";
-    public  final static String EMAIL = "coolcatmeow.org.welcomeanimation.EMAIL";
-    public  final static String PHONE = "coolcatmeow.org.welcomeanimation.PHONE";
-    public  final static String SCHOOL_NAME = "coolcatmeow.org.welcomeanimation.SCHOOL_NAME";
-    public  final static String MAJOR = "coolcatmeow.org.welcomeanimation.MAJOR";
-    public  final static String COMPANY_NAME = "coolcatmeow.org.welcomeanimation.COMPANY_NAME";
-    public  final static String COMPANY_POSITION = "coolcatmeow.org.welcomeanimation.COMPANY_POSITION";
+    public   static String FIRST_NAME = "coolcatmeow.org.welcomeanimation.FIRST_NAME";
+    public   static String LAST_NAME = "coolcatmeow.org.welcomeanimation.LAST_NAME";
+    public   static String EMAIL = "coolcatmeow.org.welcomeanimation.EMAIL";
+    public   static String PHONE = "coolcatmeow.org.welcomeanimation.PHONE";
+    public   static String SCHOOL_NAME = "coolcatmeow.org.welcomeanimation.SCHOOL_NAME";
+    public   static String MAJOR = "coolcatmeow.org.welcomeanimation.MAJOR";
+    public   static String COMPANY_NAME = "coolcatmeow.org.welcomeanimation.COMPANY_NAME";
+    public   static String COMPANY_POSITION = "coolcatmeow.org.welcomeanimation.COMPANY_POSITION";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
