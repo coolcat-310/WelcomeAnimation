@@ -37,10 +37,6 @@ public class LogInActivity extends AppCompatActivity {
             COMPANY_NAME = null;
             COMPANY_POSITION = null;
 
-        //Save String information
-
-
-
 
         //Button for Create new Account
         Button goToMainActivity = (Button) findViewById(R.id.buttonNewAccount);
@@ -51,9 +47,9 @@ public class LogInActivity extends AppCompatActivity {
                 try {
                     //Gets the input of the string
                     EditText id = (EditText) findViewById(R.id.editTextID);
-                    final String iden = id.getText().toString();
+                    ID = id.getText().toString();
                     EditText passWord = (EditText) findViewById(R.id.editTextPassWord);
-                    final String key  = passWord.getText().toString();
+                    PASSWORD = passWord.getText().toString();
                 }
                 catch ( NullPointerException e){
                     System.out.print("One of the field is empty");
