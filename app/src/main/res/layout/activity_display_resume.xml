@@ -9,7 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="coolcatmeow.org.welcomeanimation.DisplayResumeActivity"
-    android:paddingLeft="3dp">
+    android:paddingLeft="3dp"
+    android:focusableInTouchMode="true">
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,8 +55,8 @@
         android:text="Medium Text"
         android:id="@+id/displayEmail"
         android:layout_alignTop="@+id/TittleEmail"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/displayMajor"
+        android:layout_alignEnd="@+id/displayMajor" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -68,7 +69,8 @@
         android:layout_below="@+id/TittleEmail"
         android:layout_alignLeft="@+id/TittleEmail"
         android:layout_alignStart="@+id/TittleEmail"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        android:paddingRight="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,8 +79,8 @@
         android:text="Medium Text"
         android:id="@+id/displayPhone"
         android:layout_alignTop="@+id/TittlePhoneNumber"
-        android:layout_alignLeft="@+id/displayEmail"
-        android:layout_alignStart="@+id/displayEmail" />
+        android:layout_alignRight="@+id/displayMajor"
+        android:layout_alignEnd="@+id/displayMajor" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -98,7 +100,9 @@
         android:id="@+id/displayMajor"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/displaySchoolName"
-        android:layout_alignStart="@+id/displaySchoolName" />
+        android:layout_alignStart="@+id/displaySchoolName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"

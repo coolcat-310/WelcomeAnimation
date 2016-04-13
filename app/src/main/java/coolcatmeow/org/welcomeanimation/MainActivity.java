@@ -1,3 +1,4 @@
+//Make sure to concatenate with ::command%% info1;info2;info...
 package coolcatmeow.org.welcomeanimation;
 
 import android.content.Intent;
