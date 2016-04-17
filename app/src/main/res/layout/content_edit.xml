@@ -12,4 +12,32 @@
     tools:context="coolcatmeow.org.welcomeanimation.EditActivity"
     tools:showIn="@layout/activity_edit">
 
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <at.markushi.ui.CircleButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:cb_color="@color/colorPrimary"
+        app:cb_pressedRingWidth="8dp"
+        android:layout_marginBottom="38dp"
+        android:layout_alignBottom="@+id/android:list"
+        android:layout_alignRight="@+id/android:list"
+        android:layout_alignEnd="@+id/android:list"
+        android:src="@drawable/ic_action_add"
+        android:onClick="openEditorForNewNote"/>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New note"-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_marginBottom="38dp"-->
+        <!--android:layout_alignBottom="@+id/android:list"-->
+        <!--android:layout_alignRight="@+id/android:list"-->
+        <!--android:layout_alignEnd="@+id/android:list"-->
+        <!--android:onClick="openEditorForNewNote"/>-->
+
 </RelativeLayout>
