@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">WelcomeAnimation</string>
     <string name="option1">Resume</string>
-    <string name="option2">Edit</string>
+    <string name="option2">Project</string>
     <string name="option3">Display</string>
-    <string name="option4">QR Code</string>
+    <string name="option4">Share</string>
     <string name="title_activity_resume">ResumeActivity</string>
     <string name="title_activity_edit">EditActivity</string>
     <string name="title_activity_display">DisplayActivity</string>
