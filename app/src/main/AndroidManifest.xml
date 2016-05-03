@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="coolcatmeow.org.welcomeanimation">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -42,7 +44,11 @@
             android:name=".ResumeActivityTwo"
             android:label="@string/title_activity_resume_activity_two"
             android:theme="@style/AppTheme" />
-        <activity android:name=".DisplayResumeActivity"></activity>
+        <activity android:name=".DisplayResumeActivity" />
+        <activity
+            android:name=".LogInActivity"
+            android:label="@string/title_activity_log_in"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
