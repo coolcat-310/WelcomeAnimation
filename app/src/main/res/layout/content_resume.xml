@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
+        android:text="@string/FirstName"
         android:id="@+id/editTextFistName"
         android:layout_below="@+id/MessageTopResume"
         android:layout_centerHorizontal="true"
