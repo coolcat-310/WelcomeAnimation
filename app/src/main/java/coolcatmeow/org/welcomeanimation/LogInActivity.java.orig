@@ -28,6 +28,10 @@ public class LogInActivity extends AppCompatActivity {
     private ServerConnection serverConnection = null;
     public static String USEREMAIL = "";
     public static String PASSWORD = "";
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +57,10 @@ public class LogInActivity extends AppCompatActivity {
             Juan, we need to set USEREMAIL equal to the user's login email address. That way we can
             use that to sort out who's data to update when updating the database.
          */
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
 
 
         //Button for Create new Account
@@ -76,6 +84,14 @@ public class LogInActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(LogInActivity.this, MainActivity.class);
                 startActivity(intent);
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+=======
+=======
+>>>>>>> master
                /*
                TODO
                 This is how we can create a new user on the server
@@ -94,6 +110,10 @@ public class LogInActivity extends AppCompatActivity {
                 }
                 **************************************************
                 */
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
             }
         });
 

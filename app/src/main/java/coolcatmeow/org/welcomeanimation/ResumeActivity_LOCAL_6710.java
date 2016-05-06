@@ -32,9 +32,6 @@ public class ResumeActivity extends AppCompatActivity {
     private myClass connectionTask = null;
     private ServerConnection serverConnection = null;
     private static String TEMPemail = "gabe@gabe.com";
-<<<<<<< HEAD
->>>>>>> master
-=======
 >>>>>>> master
 
     @Override
